@@ -24,3 +24,16 @@ CaseStudy Flow:
 - Combination of weighted vector [text + (brand + color) + image ] is used to get similar products.
 - Observation are noted down whenever necessary.
 - Results of case study is summarized at the end.
+
+Observations:
+=====================
+1. Results were best when considered only text,brand and color.
+2. Recommended products were completly different when considered combination of all the vectors.
+3. Wide range of different apparels were recommended when feature extracted image vector considered.
+4. When feature extracted image considered
+ - Increase in similarity distance found
+ - Recommended products were completly different and non relevant.
+ - Performance deterioted when higher weights were assignrd.
+5. The reason behind it could be, that apparel image dataset is far different than imagenet dataset..
+6. Feature extracted image vector can be improove the product recommendation if VGG16 fine tuned on apparel image dataset.
+7. Among various text encoding, best result was found in case of tfidf_avg_w2v.
