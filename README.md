@@ -1,8 +1,11 @@
 # Amazon-fashion-discovery-engine-Content-Based-recommendation-
-Objective : To recommend similar apparel to customers...
+![Amazon Fashion](/images/amazon-fashion.gif)
 
-CaseStudy Flow:
-=========================
+## Objective: 
+To recommend similar apparel to customers...
+
+## CaseStudy Flow:
+
 - The objective of case study is to recommend similar apparel products(women's top)
 - The data was obtained from Amazon Product advertising API.
 - Total 183k data point was obtained with 19 features such as asin,author,availability,availability_type, brand, color formatted_price etc.,
@@ -25,8 +28,8 @@ CaseStudy Flow:
 - Observation are noted down whenever necessary.
 - Results of case study is summarized at the end.
 
-Observations:
-=====================
+## Observations:
+
 1. Results were best when considered only text,brand and color.
 2. Recommended products were completly different when considered combination of all the vectors.
 3. Wide range of different apparels were recommended when feature extracted image vector considered.
@@ -37,3 +40,5 @@ Observations:
 5. The reason behind it could be, that apparel image dataset is far different than imagenet dataset..
 6. Feature extracted image vector can be improove the product recommendation if VGG16 fine tuned on apparel image dataset.
 7. Among various text encoding, best result was found in case of tfidf_avg_w2v.
+
+
