@@ -10,13 +10,13 @@ To recommend similar apparel to customers...
 - The data was obtained from Amazon Product advertising API.
 - Total 183k data point was obtained with 19 features such as asin,author,availability,availability_type, brand, color formatted_price etc.,
 - We are considering only 9 features.
-  1. asin ( Amazon standard identification number)
-  2. brand ( brand to which the product belongs to )
-  3. color ( Color information of apparel, it can contain many colors as a value ex: red and black stripes )
-  4. product_type_name (type of the apperal, ex: SHIRT/TSHIRT )
-  5. medium_image_url ( url of the image )
-  6. title (title of the product.)
-  7. formatted_price (price of product)
+  - asin ( Amazon standard identification number)
+  - brand ( brand to which the product belongs to )
+  - color ( Color information of apparel, it can contain many colors as a value ex: red and black stripes )
+  - product_type_name (type of the apperal, ex: SHIRT/TSHIRT )
+  - medium_image_url ( url of the image )
+  - title (title of the product.)
+  - formatted_price (price of product)
 - Data pre-processing and cleaning was done. Null values for brand,color was replaced with hypen.
 - EDA was done on title of product to remoove similar/analogus titles.
 - Final dataframe contains 16k data points with 9 features.
