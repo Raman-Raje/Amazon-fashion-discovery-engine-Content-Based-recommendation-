@@ -33,7 +33,7 @@ To recommend similar apparel to customers...
 - Results were best when considered only text,brand and color.
 - Recommended products were completly different when considered combination of all the vectors.
 - Wide range of different apparels were recommended when feature extracted image vector considered.
-- When feature extracted image considered
+- When feature extracted image considered:-
   - Increase in similarity distance found
   - Recommended products were completly different and non relevant.
   - Performance deterioted when higher weights were assignrd.
